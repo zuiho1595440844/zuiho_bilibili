@@ -21,7 +21,7 @@ while True:
         r = requests.get(url, headers)
         # 将爬取道德json格式的数据转化为字典
         text = json.loads(r.text)
-        print(text)
+        
         # 取出嵌套字典里我们想要的部分
         # 这里的字典嵌套在控制台里其实看的很清楚，我在上面的截图里圈了出来
         res = text['data']['list']['vlist']
