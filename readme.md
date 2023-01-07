@@ -8,4 +8,4 @@
 * python文件打包使用pyinstaller，（若出现exe文件闪退情况，将" /vene/Lib/site-packages/ " 下的所有文件复制到" /dist/工程名 "下并将生成的程序放在服务器中运行。
 * 需要的库均可以在arduino ide及pycharm中下载。
 ## 3.使用效果
-* 详见 https://www.bilibili.com/video/BV1wR4y157Qw?spm_id_from=333.999.0.0
+* 详见 https://www.bilibili.com/video/BV1wR4y157Qw
